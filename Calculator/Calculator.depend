@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1607231299 source:c:\users\sushma\onedrive\desktop\calculator\main.c
+	"inc/cal.h"
+	"test/test_cal.h"
+
+1607232789 c:\users\sushma\onedrive\desktop\calculator\inc\cal.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"../test/test_cal.h"
+
+1607230560 c:\users\sushma\onedrive\desktop\calculator\test\test_cal.h
+
+1607231191 source:c:\users\sushma\onedrive\desktop\calculator\src\cal.c
+	"../inc/cal.h"
+	"../test/test_cal.h"
+
+1607230564 source:c:\users\sushma\onedrive\desktop\calculator\test\test_cal.c
+	"../inc/cal.h"
+	"../unity/unity.h"
+
+1607230881 c:\users\sushma\onedrive\desktop\calculator\unity\unity.h
+	"unity_internals.h"
+
+1607230895 c:\users\sushma\onedrive\desktop\calculator\unity\unity_internals.h
+	"unity_config.h"
+	<setjmp.h>
+	<math.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdint.h>
+	<limits.h>
+	<stdio.h>
+	<stdio.h>
+	<time.h>
+	<time.h>
+
+1607230862 source:c:\users\sushma\onedrive\desktop\calculator\unity\unity.c
+	"unity.h"
+	<stddef.h>
+	<avr/pgmspace.h>
+
